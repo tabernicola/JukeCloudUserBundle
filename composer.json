@@ -1,0 +1,22 @@
+{
+    "name": "tabernicola/jukecloud-user-bundle",
+    "type": "symfony-bundle",
+    "description": "User bundle for JukeCloud",
+    "require": {
+        "tabernicola/jukecloud-bundle": "1.*",
+        "friendsofsymfony/user-bundle": "~1.3"
+    },
+    "authors": [
+        {
+            "name": "Tabernicola",
+            "email": "tabernicola01@gmail.com",
+            "homepage": "https://github.com/tabernicola/JukeCloudBundle"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Tabernicola\\JukeCloudUserBundle" : ""
+        }
+    },
+    "target-dir": "Tabernicola/JukeCloudUserBundle"
+}
